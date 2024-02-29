@@ -1,0 +1,116 @@
+.Top-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  background: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  padding: 0%;
+
+}
+
+h1{
+    
+    font-style: oblique;
+    font-weight: bolder;
+    margin-top: 250px;
+    margin-bottom: 0px;
+    font-size: 100px;
+    color: yellow;
+}
+
+h2{
+    font-style: italic;
+    margin-top:0px;
+    color:greenyellow;
+    font-size: 40px;
+}
+
+.Middle-container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;    
+}
+
+h3{
+    font-size: 35px;
+    color:rgb(69, 159, 228);
+    margin-bottom: 10px;
+}
+
+
+h4{
+    font-size: larger;
+    font-weight: bold; 
+    color:rgb(69, 159, 228);
+}
+
+.cat-float{
+    width: 700px;
+    height: 300px;
+}
+
+.cat{
+    float: left;
+    margin-right: 25px;
+}
+
+.Gamer{
+    width: 700px;
+    height: 300px;
+}
+
+.Game{
+    float: left;
+    margin-right: 25px;
+}
+
+.shevat{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    background-color: aquamarine;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.shevat-re{
+    background-color: aquamarine;
+    text-align: center;
+    color: whitesmoke;
+    height: 50px;
+    
+}
+
+@media (max-width:799px){
+
+}
+
+@media (max-width:477px){
+.Top-container{
+    text-align: center;
+
+}
+
+.Top-container img {
+  
+    width:100% ;
+
+}
+    
+}
+
+
+
